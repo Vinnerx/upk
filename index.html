@@ -18,9 +18,19 @@
   h1 { font-size:clamp(1.3rem, 3.8vw, 1.8rem); margin:0 0 .4rem 0; letter-spacing:.02em; }
   p  { margin:.5rem 0 0 0; line-height:1.5 }
   .hint { opacity:.8; font-size:.98rem }
-  .gate {
-    display:flex; gap:.6rem; margin-top:1rem;
-  }
+.gate {
+  display: block;
+  margin-top: 1rem;
+}
+  .gate input[type=text] {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.6rem;
+}
+.gate button {
+  display: block;
+  width: 100%;
+}
   input[type=text]{
     flex:1; padding:.8rem 1rem; border-radius:12px; border:1px solid #393945; background:#0e0e13;
     color:#eaeaf2; font-size:1.05rem; outline:none;
