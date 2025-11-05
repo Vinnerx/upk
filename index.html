@@ -51,12 +51,12 @@
     <h1 id="title">Open the final gate</h1>
     <p class="hint">You’ve gathered five letters that together form a word that frames teaching as a skilled, artful practice.</p>
 
-    <form class="gate" id="gateForm" autocomplete="off">
-      <label class="sr-only" for="code">Enter code</label>
-      <input id="code" name="code" type="text" inputmode="latin" autocapitalize="characters"
-             placeholder="Enter code" maxlength="12" aria-describedby="hint">
-      <button type="submit" id="unlockBtn">Unlock</button>
-    </form>
+<form class="gate" id="gateForm" autocomplete="off">
+  <label class="sr-only" for="code">Enter code</label>
+  <input id="code" name="code" type="text" inputmode="latin" autocapitalize="characters"
+         placeholder="Enter 5 letters" maxlength="5" aria-describedby="hint">
+  <button type="submit" id="unlockBtn">Unlock</button>
+</form>
 
     <div id="msg" class="msg" role="status" aria-live="polite"></div>
 
